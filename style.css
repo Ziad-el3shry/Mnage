@@ -1,0 +1,183 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-image: url(images/bg-tablet-pattern.svg);
+}
+
+.home {
+    padding-left : 100px;
+    padding-right: 100px;
+}
+
+ul {
+    list-style-type: none;
+    display        : inline-block;
+    margin-left    : 100px;
+
+}
+
+li {
+    display: inline-block;
+    width  : 70px;
+}
+
+a {
+    text-decoration: none;
+    color          : black;
+}
+
+a:hover {
+    text-decoration: underline hsl(12, 88%, 59%);
+
+}
+
+button {
+    border          : 0px;
+    border-radius   : 50px;
+    width           : 130px;
+    height          : 45px;
+    background-color: hsl(12, 88%, 59%);
+    color           : white;
+    margin-left     : 200px;
+    cursor          : pointer;
+}
+
+button:hover {
+    box-shadow: 5px 2px 18px #888888;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 14px;
+    color    : #888888;
+}
+
+.btt2 {
+    border          : 0px;
+    border-radius   : 50px;
+    width           : 130px;
+    height          : 45px;
+    background-color: hsl(12, 88%, 59%);
+    color           : white;
+    cursor          : pointer;
+    margin-left     : 0px;
+    margin-top      : 50px;
+}
+
+.heading {
+    width     : 400px;
+    margin-top: 50px;
+}
+
+.content {
+    display        : flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.numbers {
+    width: 400px;
+}
+
+.number {
+    background-color: hsl(12, 88%, 59%);
+    padding-left    : 20px;
+    padding-top     : 5px;
+    width           : 40px;
+    height          : 25px;
+    border-radius   : 50px;
+    color           : white;
+    font-size       : 13px;
+    margin-top      : 60px;
+}
+
+.plan {
+    display        : flex;
+    justify-content: space-around;
+}
+
+h3 {
+    margin-right: 0px;
+}
+
+.comments {
+    display        : flex;
+    justify-content: space-around;
+    padding-left   : 0px;
+    padding-right  : 0px;
+}
+
+.comment {
+    width           : 400px;
+    background-color: #f4f4f4;
+}
+
+.team {
+    padding-left    : 100px;
+    padding-right   : 100px;
+    background-color: hsl(12, 88%, 59%);
+    color           : white;
+    height          : 200px;
+}
+
+.btt3 {
+    border          : 0px;
+    border-radius   : 50px;
+    width           : 130px;
+    height          : 45px;
+    background-color: white;
+    color           : hsl(12, 88%, 59%);
+    cursor          : pointer;
+    margin-left     : 500px;
+    margin-top      : 60px;
+}
+
+.bottom {
+    padding-left    : 100px;
+    padding-right   : 100px;
+    display         : flex;
+    justify-content : space-around;
+    background-color: hsl(233, 12%, 13%);
+    padding-top     : 30px;
+    padding-bottom  : 30px;
+}
+
+.list2 {
+    display: block;
+    height : 30px;
+}
+
+.list2 a {
+    color: white;
+}
+
+.images {
+    margin-right: 20px;
+}
+
+.btt4 {
+    border          : 0px;
+    border-radius   : 50px;
+    width           : 70px;
+    height          : 45px;
+    background-color: hsl(12, 88%, 59%);
+    color           : white;
+    cursor          : pointer;
+    margin          : 0px;
+    margin-bottom   : 80px;
+}
+
+input {
+    border       : 0px;
+    border-radius: 50px;
+    height       : 45px;
+    padding      : 10px;
+}
